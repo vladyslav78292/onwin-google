@@ -263,6 +263,10 @@ body {
 	text-align: center;
 }
 
+li::marker {
+  color: #C625AC;
+}
+
 .fixed__buttons {
   display: none;
 }
