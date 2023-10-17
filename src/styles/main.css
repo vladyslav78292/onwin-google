@@ -279,6 +279,10 @@ table:not(.bonusları__table) tr:last-of-type {
   list-style-type: disc;
 }
 
+.mobile_image {
+  width: 400px;
+}
+
 .numbers__list {
   list-style-type: auto;
 }
@@ -389,6 +393,10 @@ h2, h3, h4 {
 
 .last__table__element {
   width: 33%;
+}
+
+.mobile_lisans {
+  width: 180px;
 }
 
 @media (max-width: 1200px) {
@@ -544,6 +552,10 @@ h2, h3, h4 {
 		width: 150px;
 		height: 67px;
 	}
+
+  .mobile_image {
+    width: 280px;
+  }
 
   .main {
     margin-left: 16px;
