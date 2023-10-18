@@ -352,7 +352,7 @@ h2, h3, h4 {
 .payments {
   width: 100%;
   margin-top: 30px;
-  min-height: 25px;
+  min-height: 35px;
 }
 
 .registration__container {
@@ -409,15 +409,19 @@ h2, h3, h4 {
 }
 
 .mobil_image {
-  height: 200px;
+  height: 350px;
 }
 
 .support {
-  height: 200px;
+  height: 280px;
 }
 
 .support__container {
   margin-top: 0;
+}
+
+.mobil_table {
+  margin-bottom: 25px;
 }
 
 @media (max-width: 1200px) {
