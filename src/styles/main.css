@@ -388,7 +388,7 @@ h2, h3, h4 {
 }
 
 .destek {
-  width: 300px;
+  width: 270px;
 }
 
 .last__table__element {
@@ -397,6 +397,7 @@ h2, h3, h4 {
 
 .mobile_lisans {
   width: 180px;
+  height: 250px;
 }
 
 .homepage_mobile, .mobile {
@@ -405,6 +406,18 @@ h2, h3, h4 {
 
 .bahis_image {
   width: 400px;
+}
+
+.mobil_image {
+  height: 200px;
+}
+
+.support {
+  height: 200px;
+}
+
+.support__container {
+  margin-top: 0;
 }
 
 @media (max-width: 1200px) {
@@ -450,6 +463,10 @@ h2, h3, h4 {
   .main {
 		margin-top: 180px;
 	}
+
+  .mobil_image {
+    height: 300px;
+  }
 
   .contacts__container > img {
     width: 60%;
@@ -560,6 +577,10 @@ h2, h3, h4 {
 		width: 150px;
 		height: 67px;
 	}
+
+  .mobil_image, .support {
+    height: 350px;
+  }
 
   main > .bahis_image {
     width: 280px;
