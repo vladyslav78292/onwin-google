@@ -399,6 +399,14 @@ h2, h3, h4 {
   width: 180px;
 }
 
+.homepage_mobile, .mobile {
+  display: none;
+}
+
+.bahis_image {
+  width: 400px;
+}
+
 @media (max-width: 1200px) {
   .footer {
 		padding: 10px 20px;
@@ -447,8 +455,8 @@ h2, h3, h4 {
     width: 60%;
   }
 
-  .destek__container {
-    flex-direction: column;
+  main > .destek__container {
+    flex-direction: column-reverse;
   }
 }
 
@@ -552,6 +560,19 @@ h2, h3, h4 {
 		width: 150px;
 		height: 67px;
 	}
+
+  main > .bahis_image {
+    width: 280px;
+  }  
+
+  .homepage_mobile, .mobile {
+    max-width: 280px;
+    display: block;
+  }
+
+  .homepage_desktop, .desktop {
+    display: none;
+  }
 
   .mobile_image {
     width: 280px;
